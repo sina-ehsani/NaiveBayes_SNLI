@@ -10,3 +10,13 @@ wget https://nlp.stanford.edu/projects/snli/snli_1.0.zip`
 unzip -a snli_1.0.zip
 rm -f snli_1.0.zip
 ```
+
+To run preprocssing:
+```
+python prepro.py
+```
+
+To test the program run:
+```
+python project.py test
+```
