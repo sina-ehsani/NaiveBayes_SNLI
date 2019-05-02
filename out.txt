@@ -1,4 +1,14 @@
-Recall score: 0.34
-precision score: 0.34
-f1 score: 0.18
-accuracy : 0.34
+Recall score: 0.63
+precision score: 0.63
+f1 score: 0.63
+accuracy : 0.63
+               precision    recall  f1-score   support
+
+contradiction       0.63      0.59      0.61      3237
+      neutral       0.64      0.63      0.63      3219
+   entailment       0.62      0.67      0.65      3368
+
+    micro avg       0.63      0.63      0.63      9824
+    macro avg       0.63      0.63      0.63      9824
+ weighted avg       0.63      0.63      0.63      9824
+

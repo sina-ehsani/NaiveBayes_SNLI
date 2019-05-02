@@ -1,0 +1,15 @@
+train_accu 0.33531318747057304
+Recall score: 0.34
+precision score: 0.34
+f1 score: 0.18
+accuracy : 0.34
+               precision    recall  f1-score   support
+
+contradiction       0.59      0.00      0.01      3278
+      neutral       0.53      0.00      0.00      3235
+   entailment       0.34      1.00      0.51      3329
+
+    micro avg       0.34      0.34      0.34      9842
+    macro avg       0.49      0.33      0.17      9842
+ weighted avg       0.49      0.34      0.18      9842
+

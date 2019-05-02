@@ -12,4 +12,4 @@ module load singularity
 cd /extra/sinaehsani/text_project/
 CONTAINER=/extra/sinaehsani/text_project/TextProject_latest.sif
 
-singularity exec --nv $CONTAINER python project_dev.py
+singularity exec --nv $CONTAINER python project.py
