@@ -1,0 +1,7 @@
+[33mWARNING:[0m underlay of /usr/bin/nvidia-smi required more than 50 (319) bind mounts
+Traceback (most recent call last):
+  File "project_dev.py", line 67, in <module>
+    train_sub=train_count.todense()[:,i]
+  File "/opt/conda/lib/python3.6/site-packages/numpy/matrixlib/defmatrix.py", line 284, in __getitem__
+    out = N.ndarray.__getitem__(self, index)
+IndexError: index 236878 is out of bounds for axis 1 with size 30683

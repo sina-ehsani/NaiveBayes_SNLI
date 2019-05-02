@@ -1,0 +1,18 @@
+score_mean 0.6173905620125021
+Recall score: 0.63
+precision score: 0.63
+f1 score: 0.63
+accuracy : 0.63
+               precision    recall  f1-score   support
+
+contradiction       0.63      0.61      0.62      3278
+      neutral       0.64      0.60      0.62      3235
+   entailment       0.61      0.66      0.64      3329
+
+    micro avg       0.63      0.63      0.63      9842
+    macro avg       0.63      0.63      0.63      9842
+ weighted avg       0.63      0.63      0.63      9842
+
+acc 0.6269051005893111
+Your group changxuwu has been charged 00:00:47 for 8 cpus.
+You previously had 35970:31:03.  You now have 35970:24:47 remaining for the queue oc_standard

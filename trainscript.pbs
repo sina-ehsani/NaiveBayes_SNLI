@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -N train_new_domain
+#PBS -W group_list=changxuwu
+#PBS -q standard
+#PBS -l select=1:ncpus=8:mem=48gb
+#PBS -l walltime=10:0:0
+#PBS -l cput=280:0:0
+
+
+module load singularity
+
+cd /extra/sinaehsani/text_project/
+CONTAINER=/extra/sinaehsani/text_project/TextProject_latest.sif
+
+singularity exec --nv $CONTAINER python project_dev.py

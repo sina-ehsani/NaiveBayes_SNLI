@@ -1,0 +1,11 @@
+processeddata/
+processeddata/*
+*.sln
+*.sif
+*.dat
+snli_1.0/
+snli_1.0/*
+__pycache__/
+__pycache__/*
+__MACOSX/
+__MACOSX/*

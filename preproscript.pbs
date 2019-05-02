@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -N prepro
+#PBS -W group_list=changxuwu
+#PBS -q standard
+#PBS -l select=1:ncpus=5:mem=30gb
+#PBS -l walltime=10:0:0
+#PBS -l cput=280:0:0
+
+module load singularity
+
+cd /extra/sinaehsani/text_project/
+CONTAINER=/extra/sinaehsani/text_project/TextProject_latest.sif
+
+singularity exec --nv $CONTAINER python prepro.py
