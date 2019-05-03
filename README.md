@@ -11,7 +11,7 @@ unzip -a snli_1.0.zip
 rm -f snli_1.0.zip
 ```
 
-To run preprocssing:
+To run preprocssing: (you can also download all the preprocessed data from : `https://drive.google.com/open?id=1xEvVzC2MG-WigYSGT4syaP-3shVXI2xF`
 ```
 python prepro.py
 ```
